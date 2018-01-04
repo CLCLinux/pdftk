@@ -1,0 +1,84 @@
+%FDF-1.2
+%‚„œ”
+1 0 obj 
+<<
+/FDF 
+<<
+/Fields [
+<<
+/V /Yes
+/T (Language 2 Check Box)
+>> 
+<<
+/V ()
+/T (Address 2 Text Box)
+>> 
+<<
+/V (Green)
+/T (Favourite Colour List Box)
+>> 
+<<
+/V /Off
+/T (Language 3 Check Box)
+>> 
+<<
+/V (Highland Park)
+/T (City Text Box)
+>> 
+<<
+/V /Off
+/T (Language 1 Check Box)
+>> 
+<<
+/V /Off
+/T (Driving License Check Box)
+>> 
+<<
+/V (Man)
+/T (Gender List Box)
+>> 
+<<
+/V (MyFirstName)
+/T (Given Name Text Box)
+>> 
+<<
+/V /Off
+/T (Language 5 Check Box)
+>> 
+<<
+/V (111)
+/T (House nr Text Box)
+>> 
+<<
+/V (150)
+/T (Height Formatted Field)
+>> 
+<<
+/V (Italy)
+/T (Country Combo Box)
+>> 
+<<
+/V (MyFamilyName)
+/T (Family Name Text Box)
+>> 
+<<
+/V (Somestreet)
+/T (Address 1 Text Box)
+>> 
+<<
+/V /Off
+/T (Language 4 Check Box)
+>> 
+<<
+/V (11111)
+/T (Postcode Text Box)
+>>]
+>>
+>>
+endobj 
+trailer
+
+<<
+/Root 1 0 R
+>>
+%%EOF
