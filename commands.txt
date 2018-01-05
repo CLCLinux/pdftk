@@ -13,7 +13,6 @@ pdftk file1.pdf rotate evendown output out.pdf
 pdftk file1.pdf rotate 1-5down 7left 8-9right output out.pdf
 pdftk A=file1.pdf B=file2.pdf cat A1-5 B3-4down output out.pdf
 
-pdftk A=file1.pdf B=file2.pdf cat A1-5 B3-4down output out.pdf
 pdftk file4.pdf background back.pdf output out.pdf
 pdftk file1.pdf background back.pdf output out.pdf
 pdftk file2.pdf background back.pdf output out.pdf
