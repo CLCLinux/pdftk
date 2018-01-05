@@ -1,0 +1,28 @@
+pdftk A=file1.pdf B=file2.pdf cat A B output out.pdf
+pdftk A=file1.pdf B=file2.pdf shuffle A Bend-1 output out.pdf
+pdftk A=file1.pdf B=file2.pdf C=file3.pdf cat A1-7 B2 A8-end C output out.pdf
+pdftk file*.pdf cat output out.pdf
+pdftk file1.pdf burst
+
+pdftk file1.pdf cat 1-4 6-end output out.pdf
+pdftk file1.pdf cat 9-3odd output out.pdf
+pdftk file1.pdf cat 7 2 4 9 output out.pdf
+
+pdftk file1.pdf rotate 1-enddown output out.pdf
+pdftk file1.pdf rotate evendown output out.pdf
+pdftk file1.pdf rotate 1-5down 7left 8-9right output out.pdf
+pdftk A=file1.pdf B=file2.pdf cat A1-5 B3-4down output out.pdf
+
+pdftk A=file1.pdf B=file2.pdf cat A1-5 B3-4down output out.pdf
+pdftk file4.pdf background back.pdf output out.pdf
+pdftk file1.pdf background back.pdf output out.pdf
+pdftk file2.pdf background back.pdf output out.pdf
+pdftk file1.pdf stamp stamp.pdf output out.pdf
+
+pdftk form.pdf generate_fdf output form.fdf
+pdftk form.pdf fill_form form-data.fdf output out.pdf
+pdftk form.pdf fill_form form-data.fdf output out.pdf flatten
+pdftk form-bad.pdf generate_fdf output form-bad.fdf
+
+
+
